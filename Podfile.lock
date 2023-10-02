@@ -1,0 +1,22 @@
+PODS:
+  - Toaster (2.3.0)
+
+DEPENDENCIES:
+  - Toaster (from `https://github.com/devxoul/Toaster.git`, branch `master`)
+
+EXTERNAL SOURCES:
+  Toaster:
+    :branch: master
+    :git: https://github.com/devxoul/Toaster.git
+
+CHECKOUT OPTIONS:
+  Toaster:
+    :commit: a5aacb802cc6c243c3283899529a11f7b0f2ab53
+    :git: https://github.com/devxoul/Toaster.git
+
+SPEC CHECKSUMS:
+  Toaster: c3473963c78e8cabbf6ea6f11ad0fdaae6f54987
+
+PODFILE CHECKSUM: ead1b23d7805d3f90c3e8ecd40e44d66f8081afe
+
+COCOAPODS: 1.12.1

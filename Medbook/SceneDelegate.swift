@@ -2,20 +2,38 @@
 //  SceneDelegate.swift
 //  Medbook
 //
-//  Created by Pranab Mukherjee on 01/10/23.
+//  Created by Kamal Negi on 01/10/23.
 //
 
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
-    var window: UIWindow?
+    static var window: UIWindow?
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+        guard let windowScene = scene as? UIWindowScene else {return}
+
+        let window = UIWindow(windowScene: windowScene)
+        SceneDelegate.window = window
+        
+        if UserDefaults.standard.bool(forKey: "userLoggedIn") {
+            //if the user is logged in set home view as root view controller
+            let viewController = UIStoryboard(name: "HomeViewController", bundle: .main).instantiateViewController(identifier: "HomeViewController")
+            let navigationController = UINavigationController(rootViewController: viewController)
+            window.rootViewController = navigationController
+            window.makeKeyAndVisible()
+        } else {
+            //if the user is logged out set app landing as root view controller
+            let viewController = UIStoryboard(name: "Main", bundle: .main).instantiateViewController(identifier: "AppLandingScreen")
+            let navigationController = UINavigationController(rootViewController: viewController)
+            window.rootViewController = navigationController
+            window.makeKeyAndVisible()
+        }
         guard let _ = (scene as? UIWindowScene) else { return }
     }
 

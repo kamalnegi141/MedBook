@@ -7,23 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		844C9B982ACA88660068CEA5 /* Degular-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 844C9B942ACA88660068CEA5 /* Degular-Regular.ttf */; };
+		844C9B992ACA88660068CEA5 /* Degular-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 844C9B952ACA88660068CEA5 /* Degular-Bold.ttf */; };
+		844C9B9A2ACA88660068CEA5 /* Degular-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 844C9B962ACA88660068CEA5 /* Degular-Medium.ttf */; };
+		844C9B9B2ACA88660068CEA5 /* Degular-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 844C9B972ACA88660068CEA5 /* Degular-Semibold.ttf */; };
+		844C9B9D2ACA893D0068CEA5 /* UIFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C9B9C2ACA893D0068CEA5 /* UIFontExtension.swift */; };
+		844C9B9F2ACA8A490068CEA5 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C9B9E2ACA8A490068CEA5 /* UIColorExtension.swift */; };
+		844C9BA12ACA8C8A0068CEA5 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C9BA02ACA8C8A0068CEA5 /* UIViewControllerExtension.swift */; };
+		844C9BA32ACAA7480068CEA5 /* TextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C9BA22ACAA7480068CEA5 /* TextFields.swift */; };
+		844C9BA62ACAB4B70068CEA5 /* SignupPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C9BA52ACAB4B70068CEA5 /* SignupPresenter.swift */; };
+		844C9BA92ACAB5940068CEA5 /* SignupModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C9BA82ACAB5940068CEA5 /* SignupModal.swift */; };
+		844C9BAB2ACB043A0068CEA5 /* UserProfileHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C9BAA2ACB043A0068CEA5 /* UserProfileHelper.swift */; };
+		844C9C002ACB12E40068CEA5 /* MedBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 844C9BFE2ACB12E40068CEA5 /* MedBook.xcdatamodeld */; };
+		CFBA605E1A0AFE1BD4EDD50F /* Pods_Medbook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA869001255E41BFED53A05C /* Pods_Medbook.framework */; };
+		E1086C502AC9BD2E005D1B7E /* SignupViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1086C4F2AC9BD2E005D1B7E /* SignupViewController.storyboard */; };
+		E1086C552AC9C015005D1B7E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1086C532AC9C015005D1B7E /* HomeViewController.swift */; };
+		E1086C582AC9C047005D1B7E /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1086C572AC9C047005D1B7E /* HomeViewController.storyboard */; };
 		E1ADE5CC2AC9AE7E00A2A502 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1ADE5CB2AC9AE7E00A2A502 /* AppDelegate.swift */; };
 		E1ADE5CE2AC9AE7E00A2A502 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1ADE5CD2AC9AE7E00A2A502 /* SceneDelegate.swift */; };
-		E1ADE5D02AC9AE7E00A2A502 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1ADE5CF2AC9AE7E00A2A502 /* ViewController.swift */; };
+		E1ADE5D02AC9AE7E00A2A502 /* AppLandingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1ADE5CF2AC9AE7E00A2A502 /* AppLandingScreen.swift */; };
 		E1ADE5D32AC9AE7E00A2A502 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1ADE5D12AC9AE7E00A2A502 /* Main.storyboard */; };
 		E1ADE5D52AC9AE7F00A2A502 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1ADE5D42AC9AE7F00A2A502 /* Assets.xcassets */; };
 		E1ADE5D82AC9AE7F00A2A502 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1ADE5D62AC9AE7F00A2A502 /* LaunchScreen.storyboard */; };
+		E1ADE5E02AC9B51C00A2A502 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1ADE5DF2AC9B51C00A2A502 /* SignupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		82232A3A648B5F6A59A8C52E /* Pods-Medbook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Medbook.release.xcconfig"; path = "Target Support Files/Pods-Medbook/Pods-Medbook.release.xcconfig"; sourceTree = "<group>"; };
+		82A39C0E3010E7CAA2587A36 /* Pods-Medbook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Medbook.debug.xcconfig"; path = "Target Support Files/Pods-Medbook/Pods-Medbook.debug.xcconfig"; sourceTree = "<group>"; };
+		844C9B942ACA88660068CEA5 /* Degular-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Degular-Regular.ttf"; sourceTree = "<group>"; };
+		844C9B952ACA88660068CEA5 /* Degular-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Degular-Bold.ttf"; sourceTree = "<group>"; };
+		844C9B962ACA88660068CEA5 /* Degular-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Degular-Medium.ttf"; sourceTree = "<group>"; };
+		844C9B972ACA88660068CEA5 /* Degular-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Degular-Semibold.ttf"; sourceTree = "<group>"; };
+		844C9B9C2ACA893D0068CEA5 /* UIFontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontExtension.swift; sourceTree = "<group>"; };
+		844C9B9E2ACA8A490068CEA5 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		844C9BA02ACA8C8A0068CEA5 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		844C9BA22ACAA7480068CEA5 /* TextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFields.swift; sourceTree = "<group>"; };
+		844C9BA52ACAB4B70068CEA5 /* SignupPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupPresenter.swift; sourceTree = "<group>"; };
+		844C9BA82ACAB5940068CEA5 /* SignupModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupModal.swift; sourceTree = "<group>"; };
+		844C9BAA2ACB043A0068CEA5 /* UserProfileHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileHelper.swift; sourceTree = "<group>"; };
+		844C9BFF2ACB12E40068CEA5 /* MedBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MedBook.xcdatamodel; sourceTree = "<group>"; };
+		DA869001255E41BFED53A05C /* Pods_Medbook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Medbook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1086C4F2AC9BD2E005D1B7E /* SignupViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignupViewController.storyboard; sourceTree = "<group>"; };
+		E1086C532AC9C015005D1B7E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E1086C572AC9C047005D1B7E /* HomeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeViewController.storyboard; sourceTree = "<group>"; };
 		E1ADE5C82AC9AE7E00A2A502 /* Medbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Medbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1ADE5CB2AC9AE7E00A2A502 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1ADE5CD2AC9AE7E00A2A502 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E1ADE5CF2AC9AE7E00A2A502 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1ADE5CF2AC9AE7E00A2A502 /* AppLandingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLandingScreen.swift; sourceTree = "<group>"; };
 		E1ADE5D22AC9AE7E00A2A502 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E1ADE5D42AC9AE7F00A2A502 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1ADE5D72AC9AE7F00A2A502 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1ADE5D92AC9AE7F00A2A502 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1ADE5DF2AC9B51C00A2A502 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +67,126 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFBA605E1A0AFE1BD4EDD50F /* Pods_Medbook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		844C9B932ACA88660068CEA5 /* Degular */ = {
+			isa = PBXGroup;
+			children = (
+				844C9B942ACA88660068CEA5 /* Degular-Regular.ttf */,
+				844C9B952ACA88660068CEA5 /* Degular-Bold.ttf */,
+				844C9B962ACA88660068CEA5 /* Degular-Medium.ttf */,
+				844C9B972ACA88660068CEA5 /* Degular-Semibold.ttf */,
+			);
+			path = Degular;
+			sourceTree = "<group>";
+		};
+		844C9BA42ACAB4A70068CEA5 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				844C9BA52ACAB4B70068CEA5 /* SignupPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		844C9BA72ACAB5880068CEA5 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				844C9BA82ACAB5940068CEA5 /* SignupModal.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		844C9C012ACB13D90068CEA5 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		844C9C062ACB29C50068CEA5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				844C9B9E2ACA8A490068CEA5 /* UIColorExtension.swift */,
+				844C9BA02ACA8C8A0068CEA5 /* UIViewControllerExtension.swift */,
+				844C9BA22ACAA7480068CEA5 /* TextFields.swift */,
+				844C9BAA2ACB043A0068CEA5 /* UserProfileHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		AAD42E2269CA9E0C5462A0F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA869001255E41BFED53A05C /* Pods_Medbook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1086C512AC9BFF5005D1B7E /* SignupFLow */ = {
+			isa = PBXGroup;
+			children = (
+				844C9BA72ACAB5880068CEA5 /* Modal */,
+				844C9BA42ACAB4A70068CEA5 /* Presenter */,
+				E1086C592AC9C27D005D1B7E /* Controller */,
+				E1086C5A2AC9C286005D1B7E /* View */,
+			);
+			path = SignupFLow;
+			sourceTree = "<group>";
+		};
+		E1086C522AC9C002005D1B7E /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				844C9C012ACB13D90068CEA5 /* CoreData */,
+				E1086C5B2AC9C290005D1B7E /* Controller */,
+				E1086C5C2AC9C298005D1B7E /* View */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		E1086C592AC9C27D005D1B7E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E1ADE5DF2AC9B51C00A2A502 /* SignupViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E1086C5A2AC9C286005D1B7E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E1086C4F2AC9BD2E005D1B7E /* SignupViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E1086C5B2AC9C290005D1B7E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E1086C532AC9C015005D1B7E /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E1086C5C2AC9C298005D1B7E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E1086C572AC9C047005D1B7E /* HomeViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		E1ADE5BF2AC9AE7E00A2A502 = {
 			isa = PBXGroup;
 			children = (
 				E1ADE5CA2AC9AE7E00A2A502 /* Medbook */,
 				E1ADE5C92AC9AE7E00A2A502 /* Products */,
+				E9CA8F12344BBA25EB4A3491 /* Pods */,
+				AAD42E2269CA9E0C5462A0F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +201,30 @@
 		E1ADE5CA2AC9AE7E00A2A502 /* Medbook */ = {
 			isa = PBXGroup;
 			children = (
+				E1086C522AC9C002005D1B7E /* HomeScreen */,
 				E1ADE5CB2AC9AE7E00A2A502 /* AppDelegate.swift */,
 				E1ADE5CD2AC9AE7E00A2A502 /* SceneDelegate.swift */,
-				E1ADE5CF2AC9AE7E00A2A502 /* ViewController.swift */,
+				E1ADE5CF2AC9AE7E00A2A502 /* AppLandingScreen.swift */,
+				844C9C062ACB29C50068CEA5 /* Helpers */,
 				E1ADE5D12AC9AE7E00A2A502 /* Main.storyboard */,
 				E1ADE5D42AC9AE7F00A2A502 /* Assets.xcassets */,
 				E1ADE5D62AC9AE7F00A2A502 /* LaunchScreen.storyboard */,
 				E1ADE5D92AC9AE7F00A2A502 /* Info.plist */,
+				844C9B9C2ACA893D0068CEA5 /* UIFontExtension.swift */,
+				844C9B932ACA88660068CEA5 /* Degular */,
+				E1086C512AC9BFF5005D1B7E /* SignupFLow */,
+				844C9BFE2ACB12E40068CEA5 /* MedBook.xcdatamodeld */,
 			);
 			path = Medbook;
+			sourceTree = "<group>";
+		};
+		E9CA8F12344BBA25EB4A3491 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82A39C0E3010E7CAA2587A36 /* Pods-Medbook.debug.xcconfig */,
+				82232A3A648B5F6A59A8C52E /* Pods-Medbook.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +234,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1ADE5DC2AC9AE7F00A2A502 /* Build configuration list for PBXNativeTarget "Medbook" */;
 			buildPhases = (
+				824394C63D5ADD5C979B3287 /* [CP] Check Pods Manifest.lock */,
 				E1ADE5C42AC9AE7E00A2A502 /* Sources */,
 				E1ADE5C52AC9AE7E00A2A502 /* Frameworks */,
 				E1ADE5C62AC9AE7E00A2A502 /* Resources */,
+				6CB00FBCDC860C63ADCA5392 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,21 +287,79 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844C9B9A2ACA88660068CEA5 /* Degular-Medium.ttf in Resources */,
+				844C9B982ACA88660068CEA5 /* Degular-Regular.ttf in Resources */,
+				E1086C582AC9C047005D1B7E /* HomeViewController.storyboard in Resources */,
+				844C9B9B2ACA88660068CEA5 /* Degular-Semibold.ttf in Resources */,
+				844C9B992ACA88660068CEA5 /* Degular-Bold.ttf in Resources */,
 				E1ADE5D82AC9AE7F00A2A502 /* LaunchScreen.storyboard in Resources */,
 				E1ADE5D52AC9AE7F00A2A502 /* Assets.xcassets in Resources */,
 				E1ADE5D32AC9AE7E00A2A502 /* Main.storyboard in Resources */,
+				E1086C502AC9BD2E005D1B7E /* SignupViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6CB00FBCDC860C63ADCA5392 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Medbook/Pods-Medbook-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Medbook/Pods-Medbook-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Medbook/Pods-Medbook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		824394C63D5ADD5C979B3287 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Medbook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E1ADE5C42AC9AE7E00A2A502 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1ADE5D02AC9AE7E00A2A502 /* ViewController.swift in Sources */,
+				E1086C552AC9C015005D1B7E /* HomeViewController.swift in Sources */,
+				844C9BA92ACAB5940068CEA5 /* SignupModal.swift in Sources */,
+				844C9BAB2ACB043A0068CEA5 /* UserProfileHelper.swift in Sources */,
+				844C9B9F2ACA8A490068CEA5 /* UIColorExtension.swift in Sources */,
+				E1ADE5D02AC9AE7E00A2A502 /* AppLandingScreen.swift in Sources */,
 				E1ADE5CC2AC9AE7E00A2A502 /* AppDelegate.swift in Sources */,
+				844C9BA12ACA8C8A0068CEA5 /* UIViewControllerExtension.swift in Sources */,
+				844C9BA32ACAA7480068CEA5 /* TextFields.swift in Sources */,
+				844C9BA62ACAB4B70068CEA5 /* SignupPresenter.swift in Sources */,
+				844C9C002ACB12E40068CEA5 /* MedBook.xcdatamodeld in Sources */,
+				E1ADE5E02AC9B51C00A2A502 /* SignupViewController.swift in Sources */,
+				844C9B9D2ACA893D0068CEA5 /* UIFontExtension.swift in Sources */,
 				E1ADE5CE2AC9AE7E00A2A502 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +502,7 @@
 		};
 		E1ADE5DD2AC9AE7F00A2A502 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82A39C0E3010E7CAA2587A36 /* Pods-Medbook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -309,6 +530,7 @@
 		};
 		E1ADE5DE2AC9AE7F00A2A502 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82232A3A648B5F6A59A8C52E /* Pods-Medbook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -356,6 +578,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		844C9BFE2ACB12E40068CEA5 /* MedBook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				844C9BFF2ACB12E40068CEA5 /* MedBook.xcdatamodel */,
+			);
+			currentVersion = 844C9BFF2ACB12E40068CEA5 /* MedBook.xcdatamodel */;
+			path = MedBook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E1ADE5C02AC9AE7E00A2A502 /* Project object */;
 }
